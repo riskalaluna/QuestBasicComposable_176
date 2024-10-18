@@ -67,6 +67,10 @@ fun BasicColumn(modifier: Modifier = Modifier) {
                 .clip(CircleShape)
                 .size(150.dp)
         )
+        Spacer(modifier = Modifier.padding(10.dp))
+        Text("Nama", fontSize = 20.sp,
+            fontStyle = FontStyle.Italic
+        )
     }
 }
 
