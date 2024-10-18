@@ -49,17 +49,17 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Top,
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 50.dp)
+            .padding(top = 30.dp)
     )
     {
         Text("Hello", fontSize = 100.sp,
             fontWeight = FontWeight.Bold
         )
-        Spacer(modifier = Modifier.padding(3.dp))
+        Spacer(modifier = Modifier.padding(2.dp))
         Text("Ini adalah halaman login", fontSize = 20.sp,
             fontStyle = FontStyle.Italic
         )
-        Spacer(modifier = Modifier.padding(20.dp))
+        Spacer(modifier = Modifier.padding(10.dp))
 
         Image(painter = painterResource(id = R.drawable.umy),
             contentDescription = "",
@@ -67,7 +67,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
                 .clip(CircleShape)
                 .size(150.dp)
         )
-        Spacer(modifier = Modifier.padding(10.dp))
+        Spacer(modifier = Modifier.padding(5.dp))
         Text("Nama", fontSize = 30.sp,
             fontStyle = FontStyle.Italic
         )
