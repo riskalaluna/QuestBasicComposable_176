@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -18,6 +19,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -50,6 +52,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         modifier = Modifier
             .fillMaxSize()
             .padding(top = 30.dp)
+            .background(color = Color(0xFFFFC0CB))
     )
     {
         Text("Hello", fontSize = 100.sp,
@@ -68,10 +71,10 @@ fun BasicColumn(modifier: Modifier = Modifier) {
                 .size(150.dp)
         )
         Spacer(modifier = Modifier.padding(5.dp))
-        Text("Nama", fontSize = 30.sp,
+        Text("Nama", fontSize = 15.sp,
             fontStyle = FontStyle.Italic
         )
-        Text("Laluna Riska", fontSize = 10.sp,
+        Text("Laluna Riska", fontSize = 15.sp,
             fontStyle = FontStyle.Italic
         )
         Text("20220140176", fontSize = 20.sp,
