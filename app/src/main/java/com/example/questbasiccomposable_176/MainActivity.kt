@@ -40,6 +40,7 @@ class MainActivity : ComponentActivity() {
 fun BasicColumn(modifier: Modifier = Modifier) {
     Column (
         horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Top,
 
     )
     {
