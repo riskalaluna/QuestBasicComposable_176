@@ -51,7 +51,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold
         )
         Spacer(modifier = Modifier.padding(10.dp))
-        Text("Ini adalah halaman login", fontSize = 40.sp,
+        Text("Ini adalah halaman login", fontSize = 20.sp,
             fontStyle = FontStyle.Italic
         )
 
