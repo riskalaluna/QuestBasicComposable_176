@@ -71,7 +71,10 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         Text("Nama", fontSize = 30.sp,
             fontStyle = FontStyle.Italic
         )
-        Text("Laluna Riska", fontSize = 20.sp,
+        Text("Laluna Riska", fontSize = 10.sp,
+            fontStyle = FontStyle.Italic
+        )
+        Text("20220140176", fontSize = 20.sp,
             fontStyle = FontStyle.Italic
         )
         Spacer(modifier = Modifier.padding(20.dp))
