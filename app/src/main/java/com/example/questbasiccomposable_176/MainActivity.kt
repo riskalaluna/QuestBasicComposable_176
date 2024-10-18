@@ -48,7 +48,8 @@ fun BasicColumn(modifier: Modifier = Modifier) {
     {
         Text("Hello", fontSize = 100.sp,
             fontWeight = FontWeight.Bold
-            )
+        )
+        Spacer(modifier = Modifier.padding(10.dp))
 
     }
 }
