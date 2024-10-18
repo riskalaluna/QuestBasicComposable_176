@@ -75,7 +75,8 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             fontStyle = FontStyle.Italic
         )
         Text("Laluna Riska", fontSize = 15.sp,
-            fontStyle = FontStyle.Italic
+            fontStyle = FontStyle.Normal,
+            color = Color.Blue
         )
         Text("20220140176", fontSize = 20.sp,
             fontStyle = FontStyle.Italic
