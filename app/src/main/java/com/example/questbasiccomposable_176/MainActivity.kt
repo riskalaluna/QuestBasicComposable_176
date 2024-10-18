@@ -68,7 +68,10 @@ fun BasicColumn(modifier: Modifier = Modifier) {
                 .size(150.dp)
         )
         Spacer(modifier = Modifier.padding(10.dp))
-        Text("Nama", fontSize = 20.sp,
+        Text("Nama", fontSize = 30.sp,
+            fontStyle = FontStyle.Italic
+        )
+        Text("Laluna Riska", fontSize = 20.sp,
             fontStyle = FontStyle.Italic
         )
     }
