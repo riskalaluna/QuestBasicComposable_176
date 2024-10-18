@@ -74,6 +74,14 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         Text("Laluna Riska", fontSize = 20.sp,
             fontStyle = FontStyle.Italic
         )
+        Spacer(modifier = Modifier.padding(20.dp))
+
+        Image(painter = painterResource(id = R.drawable.luna),
+            contentDescription = "",
+            modifier = Modifier
+                .clip(CircleShape)
+                .size(300.dp)
+        )
     }
 }
 
