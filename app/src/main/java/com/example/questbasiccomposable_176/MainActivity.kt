@@ -46,7 +46,10 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             .padding(top = 50.dp)
     )
     {
-        Text("Hello", fontSize = 100.sp)
+        Text("Hello", fontSize = 100.sp,
+            fontWeight = FontWeight.Bold
+            )
+
     }
 }
 
