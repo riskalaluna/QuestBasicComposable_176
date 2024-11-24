@@ -44,6 +44,8 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+//update project
+
 @Composable
 fun BasicColumn(modifier: Modifier = Modifier) {
     Column (
